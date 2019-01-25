@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: beige;
+    justify-content: center;
+
+}
+
+.batteryMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.positif {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 5%;
+    margin-top: 200px;
+    color: white;
+    justify-content: center;
+    background-color: rgb(99, 2, 2);
+    border-radius: 6px 6px 0 0;
+}
+
+.battery {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 400px;
+    background-color: rgb(99, 2, 2);
+    border: 1px solid black;
+    border-radius: 6px;
+    flex-wrap: wrap;
+
+    margin-bottom: 60px;
+}
+
+.chargeDischarge {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.charge {
+    display: flex;
+    flex-direction: row;
+
+
+    flex-wrap: wrap;
+}
+
+.discharge {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+}
